@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paratemp"
+version = "0.1.0"
+description = "Generic parallel tempering (replica exchange) sampler"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Your Name", email = "you@example.com" }
+]
+
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering",
+]
+
+dependencies = [
+  # standard library only for core; numpy is only needed in examples
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/paratemp"
