@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/paratemp/__init__.py
+src/paratemp/core.py
+src/paratemp/kernels.py
+src/paratemp/utils.py
+src/paratemp.egg-info/PKG-INFO
+src/paratemp.egg-info/SOURCES.txt
+src/paratemp.egg-info/dependency_links.txt
+src/paratemp.egg-info/top_level.txt

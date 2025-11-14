@@ -1,0 +1,31 @@
+Metadata-Version: 2.4
+Name: paratemp
+Version: 0.1.0
+Summary: Generic parallel tempering (replica exchange) sampler
+Author-email: Sargunpreet Kaur <you@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/sargun07/paratemp
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: license-file
+
+# parallel tempering
+
+A lightweight, model-agnostic Python library for **Parallel Tempering (Replica Exchange MCMC)**.
+
+## Features
+- Generic engine — works for any model (energy-based, probabilistic, physics).
+- Plug in your own energy function + local sampling kernel.
+- Swaps between replicas follow the correct Metropolis acceptance rule.
+- Clean API similar to modern samplers.
+- Installable via `pip install -e .`
+
+## Installation
+
+```bash
+pip install -e .

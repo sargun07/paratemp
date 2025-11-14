@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT" }
 authors = [
-  { name = "Your Name", email = "you@example.com" }
+  { name = "Sargunpreet Kaur", email = "you@example.com" }
 ]
 
 classifiers = [
@@ -20,9 +20,7 @@ classifiers = [
   "Topic :: Scientific/Engineering",
 ]
 
-dependencies = [
-  # standard library only for core; numpy is only needed in examples
-]
+dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/yourname/paratemp"
+Homepage = "https://github.com/sargun07/paratemp"
