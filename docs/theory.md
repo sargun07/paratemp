@@ -31,7 +31,7 @@ A_{\text{local}} = \min\left(1, e^{-\beta(E(x') - E(x))}\right).
 $$
 
 > [!NOTE]
-> A random number \( u\sim U(0,1) \) determines whether a proposal is accepted.
+> A random number $u \sim U(0,1)$ determines whether a proposal is accepted.
 
 ---
 
